@@ -1,0 +1,31 @@
+# =========================
+# FreeRembg - Gitignore
+# =========================
+
+# Archivos de caché y compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+venv/
+env/
+.env/
+
+# Carpetas y archivos de compilación de PyInstaller
+build/
+dist/
+*.spec
+
+# Binarios pesados y ejecutables (¡Fundamental!)
+assets/ffmpeg.exe
+*.exe
+
+# Archivos del sistema operativo (Windows/Mac)
+Thumbs.db
+.DS_Store
+
+# Configuraciones de editores de código (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
